@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "796539004216",
+    "firebase_url": "https://sodusquat.firebaseio.com",
+    "project_id": "sodusquat",
+    "storage_bucket": "sodusquat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796539004216:android:ff58b2450d453291",
+        "android_client_info": {
+          "package_name": "com.shreyas.sudosquat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796539004216-ah4hjl02i61b9kl5ckoh3lutlq12rob6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shreyas.sudosquat",
+            "certificate_hash": "91FE1A201331B676BE10D85A60FE50F0831A54DD"
+          }
+        },
+        {
+          "client_id": "796539004216-qmvdmugt9bb8f9dh2r4gupthg246tvmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-G4zvT4cqXyUlhhSM3OiBShvQcc534s8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796539004216-qmvdmugt9bb8f9dh2r4gupthg246tvmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

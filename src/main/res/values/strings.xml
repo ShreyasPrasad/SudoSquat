@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SUDOSQUAT</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_gamemenu">gamemenu</string>
+    <string name="facebook_app_id">373830972993440</string>
+    <string name="fb_login_protocol_scheme">fb373830972993440</string>
+    <string name="Mistakes">Mistakes: 0</string>
+    <string name="Time">Time: 0:00</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backgroundmenu"
+    tools:context="com.shreyas.sudosquat.menu">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/titlemenu"
+        android:id="@+id/logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/startbuttonbg"
+        android:id="@+id/rulesbg"
+        android:layout_alignTop="@+id/rulesbutton"
+        android:layout_alignLeft="@+id/rulesbutton"
+        android:layout_alignStart="@+id/rulesbutton" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/startbuttonbg"
+        android:id="@+id/startbg"
+        android:layout_alignTop="@+id/startbutton"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/startbuttonmenu"
+        android:layout_marginTop="9dp"
+        android:background="@null"
+        android:id="@+id/startbutton"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gamerulesbutton"
+        android:background="@null"
+        android:id="@+id/rulesbutton"
+        android:layout_below="@+id/startbutton"
+        android:layout_alignLeft="@+id/startbutton"
+        android:layout_alignStart="@+id/startbutton"
+        android:layout_marginTop="18dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/musicicon"
+        android:id="@+id/music"
+        android:onClick="musicadjust"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/com_facebook_favicon_blue"
+        android:id="@+id/facebook_login"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/music"
+        android:layout_toStartOf="@+id/music" />
+
+    <TextView
+        android:text="Tap an Option Below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startbutton"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/option"
+        android:textColor="@color/cardview_light_background" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cardview_light_background"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:text="Resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/resume"
+        android:layout_below="@+id/prompttext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:text="Leave Game"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/end"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/resume"
+        android:layout_alignLeft="@+id/resume"
+        android:layout_alignStart="@+id/resume" />
+
+    <TextView
+        android:text="Game Paused"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="117dp"
+        android:id="@+id/prompttext"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="New Game"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/newgame"
+        android:background="@color/DARK"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/saveimage"
+        android:layout_alignStart="@+id/saveimage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@color/DARK"
+        android:textColor="@color/cardview_light_background"
+        app:srcCompat="@drawable/save"
+        android:id="@+id/saveimage"
+        android:text="Save Game"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/newgame"
+        android:layout_alignLeft="@+id/end"
+        android:layout_alignStart="@+id/end"
+        android:layout_alignRight="@+id/end"
+        android:layout_alignEnd="@+id/end" />
+
+</RelativeLayout>
