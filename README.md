@@ -7,10 +7,10 @@ The game includes animations, images prepared using Photoshop according to a pre
 
 ## Screenshots:
 Game Menu:
-![alt text](https://raw.githubusercontent.com/ShreyasPrasad/SudoSquat/master/screenshots/menu.png)
+![alt text](https://raw.githubusercontent.com/ShreyasPrasad/SudoSquat/master/screenshots/menu.PNG)
 
 Game Settings Menu:
-![alt text](https://raw.githubusercontent.com/ShreyasPrasad/SudoSquat/master/screenshots/gamesettings.png)
+![alt text](https://raw.githubusercontent.com/ShreyasPrasad/SudoSquat/master/screenshots/gamesettings.PNG)
 
 Game Screen:
-![alt text](https://raw.githubusercontent.com/ShreyasPrasad/SudoSquat/master/screenshots/game.png)
+![alt text](https://raw.githubusercontent.com/ShreyasPrasad/SudoSquat/master/screenshots/game.PNG)
